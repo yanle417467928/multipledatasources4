@@ -2,11 +2,11 @@ package com.mzd.multipledatasources.mapper;
 
 import org.springframework.stereotype.Repository;
 
-import com.mzd.multipledatasources.bean.TestBean;
+import com.mzd.multipledatasources.bean.Teacher;
 
 @Repository
-public interface TransactionMapping1 {
+public interface TeacherMapper {
 
-	void save(TestBean t);
+	void save(Teacher t);
 
 }
